@@ -1,0 +1,120 @@
+body{
+  font-size: 16px;
+  color: #fff;
+  background-color: #A71F23;
+  font-family: 'Arimo', sans-serif;
+    font-family: 'Lora', serif;
+}
+
+/**HEADER**/
+#header-nav{
+  
+  background-color:#f6b319;
+  border-radius:0;
+  border:0;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+@media(max-width: 992px){
+    .navbar-brand {
+    padding-top: 0px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 0px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+}
+#nav-list {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#nav-list a {
+  /**color: white;**/
+  color: #A71F23;
+  text-align: center;
+}
+#nav-list a:hover {
+  /**color: #A71F23;**/
+  color: #260909;
+ 
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+h1:hover {
+  text-decoration: none;
+}
+@media (min-width: 992px){
+  .navbar-brand h1{
+  font-family: 'Lora', serif;
+  color: white;
+  font-size: 1.75em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 3px 2px 2px black;
+  margin-top: 0px;
+  margin-bottom: 0;
+  line-height: .75;
+  margin-right: 15px;
+  margin-left: auto;
+  display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .navbar-brand h1{
+  font-family: 'Lora', serif;
+  color: white;
+  font-size: 1.75em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 3px 2px 2px black;
+  margin-top:10px;
+  margin-bottom: 0;
+  line-height: .75;
+  margin-right: 15px;
+  margin-left: auto;
+  display: block;
+  }
+}
+@media (max-width: 767px){
+     .navbar-brand h1{
+  font-family: 'Lora', serif;
+  color: white;
+  font-size: 1.75em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 3px 2px 2px black;
+  margin-top: 15px;
+  margin-bottom: 0;
+  line-height: .75;
+  margin-right: 15px;
+  margin-left: auto;
+  display: block;
+  }
+}
+
+.menu{
+ margin-top: 10px;
+ margin-bottom: 20px;
+ font-size: 1.5em;
+}
+.paragraph{
+  background-color: grey;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.main-paragraph{
+  font-size: 1.2em;
+}
